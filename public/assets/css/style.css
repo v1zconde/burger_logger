@@ -1,8 +1,15 @@
 li {
   padding: 5px;
   margin: 5px;
-  background: #faebd7;
+
 }
+/* 
+.btn {
+  float:right;
+  padding: 5px;
+  margin: 5px;
+
+} */
 
 .label {
   font-weight: bold;
@@ -16,4 +23,11 @@ li {
 
 .form-group {
   margin-bottom: 5px;
+}
+
+body {
+background-image: url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2004/2/25/0/bw2b07_hambugers1.jpg.rend.hgtvcom.826.620.suffix/1558017418187.jpeg);
+
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }

@@ -88,6 +88,19 @@ const orm = {
       cb(result);
     });
   },
+
+  delete(condition, cb) {
+    let queryString = `DELETE FROM burgers WHERE ${condition}`;
+    console.log(queryString);
+
+    connection.query(queryString, (err, result) => {
+      if (err) {
+        throw err;
+      }
+
+      cb(result);
+    });
+  },
 };
 
 // Export the orm object for the model (cat.js).
