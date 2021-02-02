@@ -25,9 +25,7 @@ router.post('/api/burgers', (req, res) => {
 //delete a burger
 router.delete('/api/burgers/:id', (req, res) => {
   const condition = `id = ${req.params.id}`;
-
   console.log('condition', condition);
-
   burger.delete(
     condition,
     (result) => {
@@ -39,12 +37,10 @@ router.delete('/api/burgers/:id', (req, res) => {
     }
   );
 });
-
+//update a burger to devoured
 router.put('/api/burgers/:id', (req, res) => {
   const condition = `id = ${req.params.id}`;
-
   console.log('condition', condition);
-
   burger.update(
     {
       devoured: req.body.devoured,
