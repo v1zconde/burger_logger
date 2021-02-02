@@ -16,7 +16,7 @@ npm start || node app.js
   3. [How to Install](#how-to-install)
   4. [How to Use](#how-to-use)
   5. [Submission](#submission)
-  6. [Example Schema](#example-schema)
+  6. [Index Example](#index-example)
   7. [Questions](#questions)
 
 ## User Story
@@ -44,10 +44,11 @@ npm i
 ### How to Use
 ----
 ```
-  1- Enter the website xxxx.
+  1- Enter the website https://burger-logger3.herokuapp.com/.
   2- Add a burger of your choice
   3- Its going to be added in the new burgers side.
   4- You can click the eat button and its going to be move to the side Burgers eated.
+  5- You can delete any burger anytime.
 ```    
 ### Submission
 ---
@@ -55,15 +56,12 @@ npm i
 Github Repo URL: 
 [https://github.com/v1zconde/burger_logger](https://github.com/v1zconde/burger_logger)
 
-How to use Video: 
-[Watch Video](https://drive.google.com/file/d/1585vLDFWIqj2AOY8yCYOHdb8PJXKOc70/view)
+Heroku Deployed URL: 
+[https://burger-logger3.herokuapp.com/](https://burger-logger3.herokuapp.com/)
 
-### Example Schema
-
-![Schema](./Assets/schema.png)
 ---
-### All Employees Table
-![Table Example](./Assets/employee-table.png)
+### Index Example
+![Index](./public/assets/img/index.png)
 
 
   ## Questions
