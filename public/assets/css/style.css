@@ -25,9 +25,9 @@ li {
   margin-bottom: 5px;
 }
 
-body {
-background-image: url(https://food.fnr.sndimg.com/content/dam/images/food/fullset/2004/2/25/0/bw2b07_hambugers1.jpg.rend.hgtvcom.826.620.suffix/1558017418187.jpeg);
-
+.jumbotron {
+background-image: url(../img/burger.jpg);
+color: white;
 background-repeat: no-repeat;
 background-size: 100% 100%;
 }

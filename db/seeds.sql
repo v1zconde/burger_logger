@@ -1,8 +1,8 @@
-INSERT INTO burgers (name) VALUES ('Molly');
-INSERT INTO burgers (name) VALUES ('Charlie');
-INSERT INTO burgers (name) VALUES ('Poppy');
-INSERT INTO burgers (name) VALUES ('Oscar');
-INSERT INTO burgers (name) VALUES ('Smudge');
-INSERT INTO burgers (name) VALUES ('Daisy');
-INSERT INTO burgers (name) VALUES ('Bacon');
-INSERT INTO burgers (name) VALUES ('Cheeseburger');
+INSERT INTO burgers (burger_name) VALUES ('Molly');
+INSERT INTO burgers (burger_name) VALUES ('Charlie');
+INSERT INTO burgers (burger_name) VALUES ('Poppy');
+INSERT INTO burgers (burger_name) VALUES ('Oscar');
+INSERT INTO burgers (burger_name) VALUES ('Smudge');
+INSERT INTO burgers (burger_name) VALUES ('Daisy');
+INSERT INTO burgers (burger_name) VALUES ('Bacon');
+INSERT INTO burgers (burger_name) VALUES ('Cheeseburger');

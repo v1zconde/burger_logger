@@ -1,16 +1,27 @@
 <div class="container">
-  <h1 class="text-center">Burgers!</h1>
-  <div class="row">
-    <div class="col">
-      <h2>New Burgers!</h2>
-    </div>
-    <div class="col">
-      <h2>Burgers eated!</h2>
-    </div>
+<div class="jumbotron mt-5">
+  <h2>The Guilty One Burger!</h2>
+  <p>Create burgers and eat them.!!</p>
+  <br>
+  <h2>Add a Burger</h2>
+  <panel>
+    <form id="create-form">
+      <div class="form-group">
+        <label for="ca">Burger Name:</label>
+        <input type="text" id="ca" name="burger">
+        <button class="btn btn-primary" type="submit"><i class="bi bi-bag-check"></i></button>
+      </div>
+    </form>
+      </panel>
   </div>
+
+ 
   <div class="row">
     <div class="col">
-      <ul>
+      <div class="panel-default">
+        <div class="panel-heading rounded bg-primary text-center text-white">New Burgers</div>
+        <div class="panel-body bg-light">
+      <ul class="list-group">
         {{#each burgers}}
         {{#unless devoured}}
         {{!-- {{name}} --}}
@@ -18,8 +29,13 @@
         {{/unless}}
         {{/each}}
       </ul>
+      </div>
+      </div>
     </div>
     <div class="col">
+      <div class="panel-default">
+        <div class="panel-heading rounded bg-primary text-center text-white">Devoured Burgers</div>
+        <div class="panel-body bg-light">
       <ul class="list-group">
         {{#each burgers}}
         {{#if devoured}}
@@ -27,16 +43,8 @@
         {{/if}}
         {{/each}}
       </ul>
-    </div>
-  </div>
-  <h2>Add a Burger</h2>
-  <div class="row text-center">
-    <form id="create-form">
-      <div class="form-group">
-        <label for="ca">Burger Name:</label>
-        <input type="text" id="ca" name="burger">
       </div>
-      <button type="submit">Add Burger</button>
-    </form>
+      </div>
+    </div>
   </div>
 </div>
